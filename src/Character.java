@@ -56,19 +56,22 @@ class Character {
      * method  displaying current character details
      */
 
-    public void displaydetails(){
+    public void displaydetails() {
         System.out.println("Player : " + characterName);
         System.out.println("Health Points : " + hp);
         System.out.println("Mana Points : " + mp);
         System.out.println("Level : " + level);
         System.out.print("\n");
+    }
 
+
+    public void displaywinner(){
         //Declaring the Winner
         if (hp >= 1) {
-            System.out.println( characterName + " WINS!!!.");
+            System.out.println(characterName + " WINS!!!");
         }
+    }
 
 
     }
 
-}

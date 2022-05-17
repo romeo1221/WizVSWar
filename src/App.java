@@ -63,7 +63,8 @@ public class App {
         War.displaydetails();
 
         //Displaying the Winner
-
+        Wiz.displaywinner();
+        War.displaywinner();
 
 
     }
