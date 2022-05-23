@@ -1,3 +1,5 @@
+import java.util.logging.Level;
+
 class Character {
     public String characterName;
     public int level;
@@ -68,7 +70,15 @@ class Character {
     public void displaywinner(){
         //Declaring the Winner
         if (hp >= 1) {
+            level = level + 10;
             System.out.println(characterName + " WINS!!!");
+            System.out.println((characterName + "Level Up +10!!"));
+            System.out.println("\n");
+            System.out.println("Player : " + characterName);
+            System.out.println("Health Points : " + hp);
+            System.out.println("Mana Points : " + mp);
+            System.out.println("Level : " + level);
+
         }
     }
 
